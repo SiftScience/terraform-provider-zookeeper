@@ -1,10 +1,15 @@
 ## NEXT (MONTH DAY, 2024)
 
+NEW FEATURES:
+
+* provider: added support for digest authentication
+* data-source/zookeeper_znode: support for reading ACLs of a ZNode
+* resource/zookeeper_znode: support for ZNode ACL management
+* resource/zookeeper_sequential_znode: support for ZNode ACL management
+
 IMPROVEMENTS:
 
 * Enabling CI testing for versions `1.9` of Terraform
-* Added support for digest authentication in provider configuration
-* Added support for ZNode ACL management in `zookeeper_znode` and `zookeeper_sequential_znode` resources
 
 NOTES:
 
